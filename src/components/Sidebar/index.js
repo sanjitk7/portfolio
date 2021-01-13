@@ -11,7 +11,7 @@ const Sidebar = () => {
     <section id="section-1">
       <div className="row">
         <div className="sidebar col-4 px-1 bg-dark position-fixed" id="sidebar">
-        <div className="align-text-center justify-content-center">
+        <div className="align-text-center">
           <ProfilePic />
           <div className="myName">Sanjit Kumar</div>
           <div className="designation">
@@ -28,9 +28,16 @@ const Sidebar = () => {
             <div className="row section">
               <h1>A Little About Me</h1>
               <p class="desc-body"> I am a Software Engineer, Web Developer and Computer Science Undergrad. I'm a junior majoring in Computer Science and Engineering from VIT, Vellore. I spend most of my time reading, learning, programming and writing about tech. I love building stuff. If you are looking to collaborate on something, do reach out! </p>
-
             </div>
           </div>
+
+          <div className="container">
+            <div className="row section">
+              <h1>Work</h1>
+              <p class="desc-body"> </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
