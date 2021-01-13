@@ -6,8 +6,6 @@ const Main = ()=> {
         <div>
             <Switch>
                 <Route exact path="/" component={Home}></Route>
-                {/* <Route path="/projects" component={}></Route> */}
-                {/* <Route path="/experience" component={Experience}></Route> */}
             </Switch>
         </div>
     )

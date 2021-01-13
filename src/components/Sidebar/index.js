@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import image from "../../assets/img/profilePicture3.jpg"
 
 const Sidebar = (props) => {

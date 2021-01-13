@@ -1,4 +1,4 @@
-import React, { Component,useState } from 'react';
+import React, { useState } from 'react';
 import Sidebar from '../Sidebar';
 import Landing from '../Landing';
 import Experience from '../Experience';
@@ -9,7 +9,7 @@ import profileData from '../../assets/profileData.json';
 
 const Home = () => {
 
-    const [data,setData] = useState(profileData)
+    const [data] = useState(profileData)
     return (
       <div className="AppPortfolio">
         <Sidebar sidebarData={data.landingData} />
