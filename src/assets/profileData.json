@@ -1,15 +1,21 @@
 {
-  "firstName": "Sanjit",
-  "lastName": "Kumar",
-  "DOB": "07 May 2000",
-  "about": "I am a Software Engineer, Web Developer and Computer Science Undergrad. I'm a junior majoring in Computer Science and Engineering from VIT, Vellore. I spend most of my time reading, learning, programming and writing about tech. I love building stuff. If you are looking to collaborate on something, do reach out!",
-  "email": "sanjitk2018@gmail.com",
-  "linkedin": "https://www.linkedin.com/in/sanjit-kumar-b56b911a0/",
-  "github": "https://github.com/sanjitk7",
+  "landingData":{
+    "firstName": "Sanjit",
+    "lastName": "Kumar",
+    "DOB": "07 May 2000",
+    "phoneNumber":"+91-9842314733",
+    "about": "I am a Software Engineer, Web Developer and Computer Science Undergrad. I'm a junior majoring in Computer Science and Engineering from VIT, Vellore. I spend most of my time reading, learning, programming and writing about tech on medium. I love building stuff. If you are looking to collaborate on something, do reach out!",
+    "email": "sanjitk2018@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sanjit-kumar-b56b911a0/",
+    "github": "https://github.com/sanjitk7",
+    "medium":"https://medium.com/@sanjitunv",
+    "twitter":"https://twitter.com/sanjit_77"
+  },
   "work": [
     {
       "position": "Media Head and Webmaster",
       "organization": "The Hindu Education Plus Club VIT",
+      "orgWebsite":"https://www.thepcvit.com/",
       "aboutWork": "Responsible for collaborations with other clubs for media and events. Collaborations 2020: Code2Create by ACM-VIT, Hack4Cause by IEEE-SSIT, Mechnovate 2.0 by ASME-VIT.\nCo-Leads THEPC Tech Team - Online Events during the pandemic - Automating functional workflows. Moved weekly newsletter online. Integrating clubs workings online under a single portal - THEPC ONE.",
       "fromDate": "Feb 2020",
       "toDate": "Present"
@@ -17,6 +23,7 @@
     {
       "position": "Full Stack Intern",
       "organization": "WebKnot Technologies Pvt. Ltd.",
+      "orgWebsite":"https://gowebknot.com/",
       "aboutWork": "- Worked on Opensource CCTV Solution: Shinobi to use custom Tensorflow Models as Plugins\n- HTML/CSS Web pages creation and react integration\n- Tech Used: Bootstrap4 layout, CSS, SCSS, ReactJS, NodeJS",
       "fromDate": "Nov 2020",
       "toDate": "Dec 2020"
@@ -24,6 +31,7 @@
     {
       "position": "Tech Content Writer Intern",
       "organization": "ByteVarsity",
+      "orgWebsite":"https://bytevarsity.com/",
       "aboutWork": "- Explored/Researched technology-related content and trends\n- Content-based and Web Search Engine Optimization techniques\n- Reviewed popular tech tools and software\n- Managed cloud hosting features and reports\n- General web development optimisation techniques",
       "fromDate": "Jul 2020",
       "toDate": "Sep 2020"
@@ -32,13 +40,15 @@
   "education": [
     {
       "school": "Vellore Institute of Technology, Vellore",
+      "schoolWebsite":"https://vit.ac.in/",
       "degree": "Bachelor of Technology",
-      "grade": "8.94",
+      "grade": "",
       "fromDate": "Jul 2018",
       "toDate": "Present"
     },
     {
       "school": "The Indian Public School Erode",
+      "schoolWebsite":"https://theindianpublicschool.org/",
       "degree": "High School Diploma",
       "grade": "96%",
       "fromDate": "Jun 2014",
@@ -89,36 +99,50 @@
   "projects": [
     {
       "title": "Yarn Traders Application",
+      "url":"http://sanjit-yarn-trading-frontend.herokuapp.com/",
       "description": "Most small/medium scale yarn trading companies around Erode, TN (prominent textile business zone) lack any kind of technological means to gain business insight. This MERN Stack application works as a website/catalogue and receives business inquiries for products. This data is used to create a bunch of visualisations that have semantic value to yarn traders and provide marketing and business insight.",
       "timeline": "Aug 2020 – Nov 2020"
     },
     {
       "title": "The Weekly Edge Application",
-      "description": "A full scale web application using Node.js and React for a weekly online newsletter of 'The Hindu Education Plus Club VIT'",
+      "url":"http://twe.thepcvit.com/welcome",
+      "description": "A full scale web application using Node.js and React for a weekly online newsletter of 'The Hindu Education Plus Club VIT'. Automates the complete workflow from writing the article to reviewing and publishing it on the the website. Club members exclusive.",
       "timeline": "May 2020 – Jul 2020"
     },
     {
+      "title": "IPL Chatbot with AWS Lex",
+      "url":"https://github.com/sanjitk7/IPLAWSLexChatbot",
+      "description": "Created for VIT Hack 2020, the IPL Chatbot answers simple questions regarding IPL stats from 2017-2019. Powered by AWL Lex, Lambda and S3.",
+      "timeline": "Sep 2020"
+    },
+    
+    {
       "title": "Fraudulent Transaction Detection using Clonal Selection Algorithm (ML)",
+      "url":"https://github.com/sanjitk7/ClonalAlgorithmAI",
       "description": "Credit Card Fraud Transactions Classification using a hybrid AI-inspired AIS algorithm - CLONALG or Clonal Selection with KNN, that imparts adaptability /flexibility to the dataset based on incoming vectors so that the dataset stays relevant over time. Built the algorithm from ground up using Python 3.",
       "timeline": "Feb 2020 – May 2020"
     },
     {
       "title": "Modified Banker's Algorithm to Handle Interrupts",
+      "url":"https://github.com/sanjitk7/bankersAlgorithmWithInterrupts",
       "description": "Used POSIX Threads to create a multi-threaded model for queuing and handling interrupts within Banker's Algorithm. Logged Events on Console and CSV. The complete simulation was built from scratch in C using the pthreads library.",
       "timeline": "Aug 2019 – Oct 2019"
     },
     {
       "title": "Spinning Factory Production Report Generation with SQL",
+      "url":"https://github.com/sanjitk7/spinningFactoryReportGenerationTool",
       "description": "Node Express application to log daily production data into a mySQL database and access it to generate reports",
       "timeline": "Jul 2019 – Oct 2019"
     },
     {
       "title": "Factory Data Management Software using ELK Stack",
+      "url":"https://github.com/sanjitk7/miniOpenEndSpinningAnalysisTool",
       "description": "A Scalable Application for Management of a Spinning Mill with Elastic Search and Kibana for data visualisation and business intelligence. Incorporates NoSQL data and data pipelining.Node Express application to log daily production data into a mySQL database and access it to generate reports",
       "timeline": "Apr 2019 – Jun 2019"
     },
     {
       "title": "Clustering Publicly Available Pollution Data",
+      "url":"https://github.com/sanjitk7/kMeansPollutionDataClustering",
       "description": "K-means Clustering Algorithm (Unsupervised Learning Alg) from scratch to cluster publicly available pollution data in https://data.gov.in/",
       "timeline": "Dec 2018 – Feb 2019"
     }

@@ -1,46 +1,43 @@
 import React, {useState, useEffect} from "react";
-import "./Sidebar.css";
-import ProfilePic from "../ProfilePicture/ProfilePicture";
-import ProfileData from "../../assets/profileData.json"
+import image from "../../assets/img/profilePicture3.jpg"
 
-const Sidebar = () => {
-
-  const [profileData, setProfileData]=useState(ProfileData)
+const Sidebar = (props) => {
+  console.log(props)
 
   return (
-    <section id="section-1">
-      <div className="row">
-        <div className="sidebar col-4 px-1 bg-dark position-fixed" id="sidebar">
-        <div className="align-text-center">
-          <ProfilePic />
-          <div className="myName">Sanjit Kumar</div>
-          <div className="designation">
-            Full Stack Web Developer and Engineer
-          </div>
-          <a href="#">Work</a>
-          <a href="#">Education</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
-          </div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+          <span className="d-block d-lg-none">{props.sidebarData.firstName} {props.sidebarData.lastName}</span>
+          <span className="d-none d-lg-block">
+            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={image} alt=""></img>
+          </span>
+        </a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="#education">Education</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="../../assets/SanjitCKS_Resume_Oct2020_v3" download="SanjitCKS_Resume_Oct2020_v3">Download Resume</a>
+            </li>
+          </ul>
         </div>
-        <div className="portfolioContent col offset-4" id="main">
-          <div className="container">
-            <div className="row section">
-              <h1>A Little About Me</h1>
-              <p class="desc-body"> I am a Software Engineer, Web Developer and Computer Science Undergrad. I'm a junior majoring in Computer Science and Engineering from VIT, Vellore. I spend most of my time reading, learning, programming and writing about tech. I love building stuff. If you are looking to collaborate on something, do reach out! </p>
-            </div>
-          </div>
-
-          <div className="container">
-            <div className="row section">
-              <h1>Work</h1>
-              <p class="desc-body"> </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
+      </nav>
   );
 };
 export default Sidebar;

@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter as Switch, Route } from "react-router-dom";
-import Home from "../Sidebar"
+import Home from "../Home"
 const Main = ()=> {
     return (
         <div>
