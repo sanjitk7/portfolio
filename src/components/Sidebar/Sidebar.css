@@ -1,0 +1,53 @@
+.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #00b894; /* Mint */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+
+  /* Image Background */
+
+  min-height: 100%;
+  background: url("../../assets/img/sidebar1.jpeg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(99, 110, 114,0.3);
+}
+
+.myName {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 15px auto;
+  text-transform: uppercase;
+}
+
+.designation {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.sidebar a{
+  padding: 6px 16px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+}
+
+.sidebar a:hover{
+  padding: 6px 16px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #00b894;
+  display: block;
+  text-align: center;
+}
+
+.section h2{
+  margin-top: 150px;
+}
