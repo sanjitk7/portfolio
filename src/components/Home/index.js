@@ -5,6 +5,7 @@ import Experience from '../Experience';
 import Education from '../Education';
 import Skills from '../Skills';
 import Projects from '../Projects';
+import Resume from "../Resume"
 import profileData from '../../assets/profileData.json';
 
 const Home = () => {
@@ -23,6 +24,8 @@ const Home = () => {
           <Skills skills={data.skills} />
           <hr className="m-0" />
           <Projects projects={data.projects} />
+          <hr className="m-0" />
+          <Resume />
         </div>
       </div>
     );

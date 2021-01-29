@@ -33,7 +33,7 @@ const Sidebar = (props) => {
               <a className="nav-link js-scroll-trigger" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="../../assets/SanjitCKS_Resume_Oct2020_v3" download="SanjitCKS_Resume_Oct2020_v3">Download Resume</a>
+              <a className="nav-link js-scroll-trigger" href="#resume">Resume</a>
             </li>
           </ul>
         </div>
