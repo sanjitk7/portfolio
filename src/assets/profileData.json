@@ -4,7 +4,7 @@
     "lastName": "Kumar",
     "DOB": "07 May 2000",
     "phoneNumber":"+91-9842314733",
-    "about": "I am a Software Engineer, Web Developer and Computer Science Undergrad. I'm a junior majoring in Computer Science and Engineering from VIT, Vellore. I spend most of my time reading, learning, programming and writing about tech on medium. I love building stuff. If you are looking to collaborate on something, do reach out!",
+    "about": "I am a Software Engineer, Web Developer and Computer Science Undergrad. I'm majoring in Computer Science and Engineering from VIT, Vellore. I spend most of my time reading, learning, programming and writing about tech on medium. I love building stuff. If you are looking to collaborate on something, do reach out!",
     "email": "sanjitk2018@gmail.com",
     "linkedin": "https://www.linkedin.com/in/sanjit-kumar-b56b911a0/",
     "github": "https://github.com/sanjitk7",
@@ -12,6 +12,14 @@
     "twitter":"https://twitter.com/sanjit_77"
   },
   "work": [
+    {
+      "position": "Academic Support Volunteer",
+      "organization": "Make A Difference",
+      "orgWebsite":"https://www.makeadiff.in/",
+      "aboutWork": "Taught 10th grade English to kids from Kasam Home, Vellore to help refurnish their language fundamentals and to equip them to take on secondary school board examinations",
+      "fromDate": "Nov 2020",
+      "toDate": "May 2021"
+    },
     {
       "position": "Media Head and Tech Lead",
       "organization": "The Hindu Education Plus Club VIT",
@@ -42,7 +50,7 @@
       "school": "Vellore Institute of Technology, Vellore",
       "schoolWebsite":"https://vit.ac.in/",
       "degree": "Bachelor of Technology",
-      "grade": "9.08",
+      "grade": "9.11",
       "fromDate": "Jul 2018",
       "toDate": "Present (Est. May 2022)"
     },
@@ -97,6 +105,13 @@
     }
   ],
   "projects": [
+
+    {
+      "title": "Map Reduce Simulation",
+      "url":"https://github.com/sanjitk7/MapReducePython",
+      "description": "Simulated the Map Reduce Algorithm used in HPC in cloud infrastructures on a smaller scale with docker instances functioning as nodes in a distributed system with Python. ",
+      "timeline": "Jan 2021 – Mar 2021"
+    },
     {
       "title": "Yarn Traders Application",
       "url":"http://sanjit-yarn-trading-frontend.herokuapp.com/",
