@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/img/profilePicture3.jpg"
+import image from "../../assets/img/profile_pic_sf_square.png"
 
 const Sidebar = (props) => {
   console.log(props)
