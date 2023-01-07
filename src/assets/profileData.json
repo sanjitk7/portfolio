@@ -4,7 +4,7 @@
     "lastName": "Kumar",
     "DOB": "07 May 2000",
     "phoneNumber":"+1 (217)-819-6384",
-    "about": "I am a computer science graduate student at The University of Illinois at Urbana-Champaign with a passion for software development. I am curious by nature, have wide interests in CS and am keen to learn to translate them into projects.",
+    "about": "I am a computer science graduate student at The University of Illinois at Urbana-Champaign with a passion for software development. I am curious by nature and have wide interests in CS that I translate them into projects. I am looking for SDE Intern roles at the moment for Summer 2023.",
     "email": "sanjitk2018@gmail.com",
     "linkedin": "https://www.linkedin.com/in/sanjit-kumar-b56b911a0/",
     "github": "https://github.com/sanjitk7",
@@ -32,26 +32,27 @@
       "position": "Tech Content Writer Intern",
       "organization": "ByteVarsity",
       "orgWebsite":"https://bytevarsity.com/",
-      "aboutWork": "- Explored/Researched technology-related content and trends\n- Content-based and Web Search Engine Optimization techniques\n- Reviewed popular tech tools and software\n- Managed cloud hosting features and reports\n- General web development optimisation techniques",
+      "aboutWork": "Was responsible for researching and creating technology related content. Explored content-based and web search engine optimization techniques. Reviewed popular cloud IaaS services, their tools, reports and software.",
       "fromDate": "Jul 2020",
       "toDate": "Sep 2020"
-    },
-    {
-      "position": "Academic Support Volunteer",
-      "organization": "Make A Difference",
-      "orgWebsite":"https://www.makeadiff.in/",
-      "aboutWork": "Taught 10th grade English to kids from Kasam Home, Vellore to help refurnish their language fundamentals and to equip them to take on secondary school board examinations",
-      "fromDate": "Nov 2020",
-      "toDate": "May 2021"
     },
     {
       "position": "Media Head and Tech Lead",
       "organization": "The Hindu Education Plus Club VIT",
       "orgWebsite":"https://www.thepcvit.com/",
-      "aboutWork": "Responsible for collaborations with other clubs for media and events. Collaborations 2020: Code2Create by ACM-VIT, Hack4Cause by IEEE-SSIT, Mechnovate 2.0 by ASME-VIT.\nCo-Leads THEPC Tech Team - Online Events during the pandemic - Automating functional workflows. Moved weekly newsletter online. Integrating clubs workings online under a single portal - THEPC ONE.",
+      "aboutWork": "Was Media/Tech Lead for the journalistic literature student club that was created by India's largest print daily. Organized multiple collaborative events with other student chapters. Moved the club's campus newsletter segment online where members/editor can write, review, edit and publish content. ",
       "fromDate": "Feb 2020",
       "toDate": "Jan 2021"
+    },
+    {
+      "position": "Academic Support Volunteer",
+      "organization": "Make A Difference",
+      "orgWebsite":"https://www.makeadiff.in/",
+      "aboutWork": "Taught 10th grade English to kids from Kasam Home, Vellore to help refurnish their language fundamentals and to equip them to take on secondary school board examinations.",
+      "fromDate": "Nov 2020",
+      "toDate": "May 2021"
     }
+
     
   ],
   "education": [
@@ -146,7 +147,7 @@
     {
       "title": "WildSprint",
       "url":"https://github.com/ambur-biryani/wild-sprint-frontend",
-      "description": "A fundraising platform that allows for donations via ether powered by Ethereum smart contracts. Dyte SDK used to live stream animals in their habitats to raise awareness",
+      "description": "A fundraising platform that allows for donations via ether powered by Ethereum smart contracts. Dyte SDK used to live stream animals in their habitats to raise awareness.",
       "timeline": "Aug 2022 – Dec 2022"
     },
     {
@@ -158,7 +159,7 @@
     {
       "title": "Yarn Traders Application",
       "url":"https://github.com/sanjitk7/yarnTradingCompanyFrontendv2/",
-      "description": "Most small/medium scale yarn trading companies around Erode, TN (prominent textile business zone) lack any kind of technological means to gain business insight. This MERN Stack application works as a website/catalogue and receives business inquiries for products. This data is used to create a bunch of visualisations that have semantic value to yarn traders and provide marketing and business insight.",
+      "description": "Most small/medium scale yarn trading companies around Erode, TN (prominent textile business zone) lack any kind of technological means to gain business insight. This MERN Stack application works as a website/catalogue and receives business inquiries for products. This data is used to create a bunch of visualizations that have semantic value to yarn traders and provide marketing and business insight.",
       "timeline": "Aug 2020 – Nov 2020"
     },
     {
@@ -189,7 +190,7 @@
     {
       "title": "Spinning Factory Production Report Generation with SQL",
       "url":"https://github.com/sanjitk7/spinningFactoryReportGenerationTool",
-      "description": "Node Express application to log daily production data into a mySQL database and access it to generate reports",
+      "description": "Node Express application to log daily production data into a mySQL database and access it to generate reports.",
       "timeline": "Jul 2019 – Oct 2019"
     },
     {
@@ -201,7 +202,7 @@
     {
       "title": "Clustering Publicly Available Pollution Data",
       "url":"https://github.com/sanjitk7/kMeansPollutionDataClustering",
-      "description": "K-means Clustering Algorithm (Unsupervised Learning Alg) from scratch to cluster publicly available pollution data in https://data.gov.in/",
+      "description": "K-means Clustering Algorithm (Unsupervised Learning Alg) from scratch to cluster publicly available pollution data in https://data.gov.in/.",
       "timeline": "Dec 2018 – Feb 2019"
     }
   ]
