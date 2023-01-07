@@ -3,8 +3,8 @@
     "firstName": "Sanjit",
     "lastName": "Kumar",
     "DOB": "07 May 2000",
-    "phoneNumber":"+91-9842314733",
-    "about": "I am a Software Engineer, Web Developer and Computer Science Undergrad. I'm majoring in Computer Science and Engineering from VIT, Vellore. I spend most of my time reading, learning, programming and writing about tech on medium. I love building stuff. If you are looking to collaborate on something, do reach out!",
+    "phoneNumber":"+1 (217)-819-6384",
+    "about": "I am a computer science graduate student at The University of Illinois at Urbana-Champaign with a passion for software development. I am curious by nature, have wide interests in CS and am keen to learn to translate them into projects.",
     "email": "sanjitk2018@gmail.com",
     "linkedin": "https://www.linkedin.com/in/sanjit-kumar-b56b911a0/",
     "github": "https://github.com/sanjitk7",
@@ -13,20 +13,12 @@
   },
   "work": [
     {
-      "position": "Academic Support Volunteer",
-      "organization": "Make A Difference",
-      "orgWebsite":"https://www.makeadiff.in/",
-      "aboutWork": "Taught 10th grade English to kids from Kasam Home, Vellore to help refurnish their language fundamentals and to equip them to take on secondary school board examinations",
-      "fromDate": "Nov 2020",
-      "toDate": "May 2021"
-    },
-    {
-      "position": "Media Head and Tech Lead",
-      "organization": "The Hindu Education Plus Club VIT",
-      "orgWebsite":"https://www.thepcvit.com/",
-      "aboutWork": "Responsible for collaborations with other clubs for media and events. Collaborations 2020: Code2Create by ACM-VIT, Hack4Cause by IEEE-SSIT, Mechnovate 2.0 by ASME-VIT.\nCo-Leads THEPC Tech Team - Online Events during the pandemic - Automating functional workflows. Moved weekly newsletter online. Integrating clubs workings online under a single portal - THEPC ONE.",
-      "fromDate": "Feb 2020",
-      "toDate": "Jan 2021"
+      "position": "Software Developer Intern",
+      "organization": "Zigma Software",
+      "orgWebsite":"https://zigmasoftware.com/",
+      "aboutWork": "End to end truck weigh bridge software solution for trucks and heavy motor vehicles. Worked with a team of 3 on Django, SQL and Web frontend for a desktop application for a heavy mortar vehicle weigh bridge (truck scale) in Erode.",
+      "fromDate": "Sep 2021",
+      "toDate": "Nov 2021"
     },
     {
       "position": "Full Stack Intern",
@@ -43,16 +35,41 @@
       "aboutWork": "- Explored/Researched technology-related content and trends\n- Content-based and Web Search Engine Optimization techniques\n- Reviewed popular tech tools and software\n- Managed cloud hosting features and reports\n- General web development optimisation techniques",
       "fromDate": "Jul 2020",
       "toDate": "Sep 2020"
+    },
+    {
+      "position": "Academic Support Volunteer",
+      "organization": "Make A Difference",
+      "orgWebsite":"https://www.makeadiff.in/",
+      "aboutWork": "Taught 10th grade English to kids from Kasam Home, Vellore to help refurnish their language fundamentals and to equip them to take on secondary school board examinations",
+      "fromDate": "Nov 2020",
+      "toDate": "May 2021"
+    },
+    {
+      "position": "Media Head and Tech Lead",
+      "organization": "The Hindu Education Plus Club VIT",
+      "orgWebsite":"https://www.thepcvit.com/",
+      "aboutWork": "Responsible for collaborations with other clubs for media and events. Collaborations 2020: Code2Create by ACM-VIT, Hack4Cause by IEEE-SSIT, Mechnovate 2.0 by ASME-VIT.\nCo-Leads THEPC Tech Team - Online Events during the pandemic - Automating functional workflows. Moved weekly newsletter online. Integrating clubs workings online under a single portal - THEPC ONE.",
+      "fromDate": "Feb 2020",
+      "toDate": "Jan 2021"
     }
+    
   ],
   "education": [
     {
+      "school": "University of Illinois, Urbana-Champaign",
+      "schoolWebsite":"https://illinois.edu/",
+      "degree": "B.Tech Computer Science and Engineering",
+      "grade": "3.78/4",
+      "fromDate": "Aug 2022",
+      "toDate": "Present (Est. Dec 2023)"
+    },
+    {
       "school": "Vellore Institute of Technology, Vellore",
       "schoolWebsite":"https://vit.ac.in/",
-      "degree": "Bachelor of Technology",
-      "grade": "9.11",
+      "degree": "Master of Computer Science",
+      "grade": "9.23/10",
       "fromDate": "Jul 2018",
-      "toDate": "Present (Est. May 2022)"
+      "toDate": "May 2022"
     },
     {
       "school": "The Indian Public School Erode",
@@ -74,7 +91,7 @@
       "name": "Javascript"
     },
     {
-      "name": "React"
+      "name": "ReactJS"
     },
     {
       "name": "Nodejs"
@@ -108,10 +125,30 @@
     },
     {
       "name": "Elasticsearch"
+    },
+    {
+      "name": "Distributed Systems"
+    },
+    {
+      "name": "Algorithms"
+    },
+    {
+      "name": "Linux Kernel"
     }
   ],
   "projects": [
-
+    {
+      "title": "IDunno: A Distributed ML Inference System",
+      "url":"#",
+      "description": "A ML inference system build on top of 10 VMs from scratch - includes a distributed group membership protocol, a simple DFS and a work scheduling algorithm to optimize query rate.",
+      "timeline": "Aug 2022 – Dec 2022"
+    },
+    {
+      "title": "WildSprint",
+      "url":"https://github.com/ambur-biryani/wild-sprint-frontend",
+      "description": "A fundraising platform that allows for donations via ether powered by Ethereum smart contracts. Dyte SDK used to live stream animals in their habitats to raise awareness",
+      "timeline": "Aug 2022 – Dec 2022"
+    },
     {
       "title": "Map Reduce Simulation",
       "url":"https://github.com/sanjitk7/MapReducePython",
@@ -120,13 +157,13 @@
     },
     {
       "title": "Yarn Traders Application",
-      "url":"http://sanjit-yarn-trading-frontend.herokuapp.com/",
+      "url":"https://github.com/sanjitk7/yarnTradingCompanyFrontendv2/",
       "description": "Most small/medium scale yarn trading companies around Erode, TN (prominent textile business zone) lack any kind of technological means to gain business insight. This MERN Stack application works as a website/catalogue and receives business inquiries for products. This data is used to create a bunch of visualisations that have semantic value to yarn traders and provide marketing and business insight.",
       "timeline": "Aug 2020 – Nov 2020"
     },
     {
       "title": "The Weekly Edge Application",
-      "url":"http://twe.thepcvit.com/welcome",
+      "url":"http://thepcvit.com/",
       "description": "A full scale web application using Node.js and React for a weekly online newsletter of 'The Hindu Education Plus Club VIT'. Automates the complete workflow from writing the article to reviewing and publishing it on the the website. Club members exclusive.",
       "timeline": "May 2020 – Jul 2020"
     },
